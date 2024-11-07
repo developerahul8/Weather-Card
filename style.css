@@ -10,8 +10,15 @@ body{
     margin-top: 50px;
 }
 .container{
-    border: 1px solid black;
-    width: 400px;
+    /* border: 1px solid black; */
+    box-shadow: 0 0 8px 0 rgb(168, 166, 166);
+    border-radius: 8px;
+    max-width: 400px;
+    width: 100%;
+    background: rgb(120,118,140);
+    background: linear-gradient(120deg, rgba(120,118,140,1) 0%, rgba(193,193,209,1) 44%, rgba(22,148,173,1) 100%);
+    color: white;
+    padding: 20px;
 }
 .container .searchSection{
     width: 100%;
@@ -52,3 +59,31 @@ input,button{
 .cityDetails .weatherImg{
     width: 150px;
 }
+.moreDetails{
+    /* border: 1px solid black; */
+    display: flex;
+    flex-wrap: wrap;
+}
+.moreDetails section{
+    /* border: 1px solid black; */
+    height: 50px;
+    width: 50%;
+    display: flex;
+    align-items: start;
+    justify-content: space-evenly;
+    /* color: white; */
+}
+.moreDetails section img{
+    width: 40px;
+}
+.moreDetails section .value{
+    font-size: 1.1em;
+    font-weight: 600;
+}
+.moreDetails section .name{
+    font-size: 0.8em;
+}
+/* .moreDetails section .values{
+    border: 1px solid black;
+
+} */
